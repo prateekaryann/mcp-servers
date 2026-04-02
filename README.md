@@ -9,7 +9,8 @@ Each server wraps a CLI tool or API, exposing its capabilities as MCP tools. Sha
 | Server | Tools | CLI | Description |
 |--------|-------|-----|-------------|
 | [GitHub](servers/github/) | 40 | `gh` | Repos, issues, PRs, branches, workflows, releases |
-| *More coming...* | | | Slack, Jira, AWS, etc. |
+| [Freelance Jobs](servers/freelance/) | 7 | `httpx` | Search 8 job platforms, skill matching, notifications |
+| *More coming...* | | | Slack, Calendar, AWS, etc. |
 
 ## Architecture
 

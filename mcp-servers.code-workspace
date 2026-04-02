@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"name": "Root",
+			"path": "."
+		},
+		{
+			"name": "Shared (mcp_shared)",
+			"path": "shared"
+		},
+		{
+			"name": "Server: GitHub",
+			"path": "servers/github"
+		},
+		{
+			"name": "Server: Freelance",
+			"path": "servers/freelance"
+		},
+		{
+			"name": "Template",
+			"path": "servers/_template"
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "python",
+		"python.analysis.extraPaths": [
+			"./shared"
+		],
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/*.egg-info": true
+		},
+		"search.exclude": {
+			"**/__pycache__": true,
+			"**/node_modules": true,
+			"**/*.egg-info": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.pylint"
+		]
+	}
+}
